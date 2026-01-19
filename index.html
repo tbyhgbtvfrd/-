@@ -1,0 +1,401 @@
+<html lang="en"
+  style="--tg-color-scheme: dark; --tg-theme-bg-color: #212121; --tg-theme-text-color: #ffffff; --tg-theme-hint-color: #aaaaaa; --tg-theme-link-color: #8774e1; --tg-theme-button-color: #8774e1; --tg-theme-button-text-color: #ffffff; --tg-theme-secondary-bg-color: #0f0f0f; --tg-theme-header-bg-color: #212121; --tg-theme-accent-text-color: #8774e1; --tg-theme-section-bg-color: #212121; --tg-theme-section-header-text-color: #aaaaaa; --tg-theme-subtitle-text-color: #aaaaaa; --tg-theme-destructive-text-color: #e53935; --tg-viewport-height: 100vh; --tg-viewport-stable-height: 100vh;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>VPNUL</title>
+  <meta name="description" content="Vpnul">
+  <script src="https://telegram.org/js/telegram-web-app.js?59"></script>
+  <link rel="dns-prefetch" href="//vpnul.codes">
+  <link rel="preconnect" href="https://vpnul.codes" crossorigin="">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/SFProRounded/stylesheet.css">
+
+  <script>
+    const initWebApp = () => {
+      const FULLSCREEN_ALLOWED_PLATFORMS = ['ios', 'android']
+      const webApp = window?.Telegram?.WebApp
+
+      if (webApp) {
+        webApp.expand()
+
+        const withFullScreen =
+          Number(webApp.version) >= 8 &&
+          webApp.requestFullscreen &&
+          FULLSCREEN_ALLOWED_PLATFORMS.includes(webApp.platform)
+
+        if (withFullScreen) {
+          webApp.requestFullscreen()
+        }
+
+        webApp.requestWriteAccess()
+        webApp.disableVerticalSwipes()
+
+        return true
+      }
+      return false
+    }
+
+    if (!initWebApp()) {
+      const observer = new MutationObserver(() => {
+        if (initWebApp()) {
+          observer.disconnect()
+        }
+      })
+      observer.observe(document, {
+        childList: true,
+        subtree: true
+      })
+      setTimeout(() => {
+        initWebApp()
+        observer.disconnect()
+      }, 1000)
+    }
+  </script>
+  <script type="module" crossorigin="" src="/assets/index-Cx1OPpTI.js"></script>
+  <script src="./spa.js"></script>
+  <link rel="stylesheet" crossorigin="" href="assets/index-CBW84yIC.css">
+  <style id="_goober">
+    .loader-spinner {
+      width: 60px;
+      height: 60px;
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-top: 3px solid #0091FF;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .go2281452115 {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 16px 64px rgba(0, 0, 0, 0.16);
+      width: fit-content;
+      margin: auto;
+    }
+
+    @media (max-width: 440px) {
+      .go2281452115 {
+        width: 100%;
+        height: fit-content;
+        margin: auto 0 0 0;
+      }
+    }
+
+    .go3288899091 {
+      transform: translateY(-8px);
+      margin-bottom: 12px;
+    }
+
+    .go3535743411 {
+      margin-bottom: 12px;
+    }
+
+    tc-root * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Arial, Tahoma, Verdana, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    tc-root img {
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+    }
+
+    tc-root *:focus {
+      outline: #08f auto 2px;
+    }
+
+    tc-root li {
+      list-style: none;
+    }
+
+    tc-root button {
+      outline: none;
+    }
+
+    body.tc-disable-scroll {
+      position: fixed;
+      overflow-y: scroll;
+      right: 0;
+      left: 0;
+    }
+
+    body.tc-using-mouse tc-root *:focus {
+      outline: none;
+    }
+  </style>
+</head>
+
+<body class="dark tc-using-mouse" ontouchstart="">
+  <div id="root">
+    <div class="fonts-loaded h-screen w-full bg-black">
+      <div
+        class="w-full max-w-xl h-screen relative overflow-hidden flex flex-col justify-center items-center bg-black m-auto">
+        <div class="px-4 z-100 bg-dark"></div>
+        <div class="_home_ltdi1_1 page">
+          <div class="_context_1ghlx_1 undefined">
+            <div class="_head_1ghlx_63">
+              <div class="_skeletonBg_1ghlx_10"></div>
+              <div class="_image_1ghlx_15"><img src="./pages/home/logo.png" alt="logo" loading="eager"
+                  class="undefined undefined"></div>
+              <div class="_stars_1ghlx_21"><span class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span><span
+                  class="_star_1ghlx_21"></span><span class="_star_1ghlx_21"></span></div>
+            </div>
+            <div class="_title_1ghlx_16">
+              <div class="_skeletonBg_1ghlx_10"></div>
+              <h4>VPN</h4>
+            </div>
+            <div class="_descr_1ghlx_17">
+              <div class="_skeletonBg_1ghlx_10"></div>
+              <p>Разблокируй свою цифровую свободу</p>
+            </div>
+          </div>
+          <div class="_block_178zd_1 undefined">
+            <div class="_image_178zd_18"><img src="./pages/home/gift.png" alt="" loading="lazy"
+                class="undefined undefined"></div>
+            <div class="_context_178zd_19">
+              <h4>Бесплатная подписка</h4>
+              <p>За приглашение друга</p>
+            </div>
+            <div class="_chevrone_178zd_20"><svg width="24px" height="24px" viewBox="0 0 20 20" class="" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.21582 17.7933C8.92806 17.5176 8.92806 17.0706 9.21582 16.795L14.2211 12L9.21582 7.20502C8.92806 6.92935 8.92806 6.48241 9.21582 6.20675C9.50357 5.93108 9.97011 5.93108 10.2579 6.20675L15.7842 11.5009C16.0719 11.7765 16.0719 12.2235 15.7842 12.4991L10.2579 17.7933C9.97011 18.0689 9.50357 18.0689 9.21582 17.7933Z"
+                  fill="white"></path>
+              </svg></div>
+          </div>
+          <div class="_blocker_m2211_31">
+            <div class="_items_m2211_39">
+              <div class="_item_m2211_39 ">
+                <div class="skeleton-bg _skeletonBg_m2211_88"></div>
+                <div class="_image_m2211_50"><img alt="" loading="lazy" class="_img_m2211_257 _visible_m2211_265"
+                    src="https://vpnul.codes/s3/subs/1.webp"></div>
+                <div class="_title_m2211_51">
+                  <h4>1 день</h4>
+                </div>
+                <div class="_button_m2211_52">
+                  <div class="skeleton-bg _skeletonBg_m2211_88"></div><button>
+                    <h4>45р</h4>
+                  </button>
+                </div>
+              </div>
+              <div class="_item_m2211_39 ">
+                <div class="skeleton-bg _skeletonBg_m2211_88"></div>
+                <div class="_image_m2211_50"><img alt="" loading="lazy" class="_img_m2211_257 _visible_m2211_265"
+                    src="https://vpnul.codes/s3/subs/2.webp"></div>
+                <div class="_title_m2211_51">
+                  <h4>1 неделя</h4>
+                </div>
+                <div class="_button_m2211_52">
+                  <div class="skeleton-bg _skeletonBg_m2211_88"></div><button>
+                    <h4>159р</h4>
+                  </button>
+                </div>
+              </div>
+              <div class="_item_m2211_39 ">
+                <div class="skeleton-bg _skeletonBg_m2211_88"></div>
+                <div class="_sale_m2211_93">
+                  <div class="_bg_m2211_121"></div><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                    viewBox="0 0 55 55" fill="none">
+                    <path
+                      d="M51.4965 26.401L28.599 3.50354C26.3557 1.26026 23.3132 0 20.1408 0H1.99763C0.221489 0 -0.667999 2.14743 0.587919 3.40336L51.5967 54.4121C52.8526 55.668 55 54.7785 55 53.0024V34.8593C55 31.6868 53.7397 28.6443 51.4965 26.401Z"
+                      fill="url(#paint0_linear_1_501)"></path>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_501" x1="27.0891" y1="0.996818" x2="27.0891" y2="54.825"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#6CADF2"></stop>
+                        <stop offset="1" stop-color="#126099"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="_text_m2211_124">
+                    <p>популяр.</p>
+                  </div>
+                </div>
+                <div class="_image_m2211_50"><img alt="" loading="lazy" class="_img_m2211_257 _visible_m2211_265"
+                    src="https://vpnul.codes/s3/subs/3.webp"></div>
+                <div class="_title_m2211_51">
+                  <h4>1 месяц</h4>
+                </div>
+                <div class="_button_m2211_52">
+                  <div class="skeleton-bg _skeletonBg_m2211_88"></div><button>
+                    <h4>219р</h4>
+                  </button>
+                </div>
+              </div>
+              <div class="_item_m2211_39 ">
+                <div class="skeleton-bg _skeletonBg_m2211_88"></div>
+                <div class="_sale_m2211_93">
+                  <div class="_bg_m2211_121"></div><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                    viewBox="0 0 55 55" fill="none">
+                    <path
+                      d="M51.4965 26.401L28.599 3.50354C26.3557 1.26026 23.3132 0 20.1408 0H1.99763C0.221489 0 -0.667999 2.14743 0.587919 3.40336L51.5967 54.4121C52.8526 55.668 55 54.7785 55 53.0024V34.8593C55 31.6868 53.7397 28.6443 51.4965 26.401Z"
+                      fill="url(#paint0_linear_1_501)"></path>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_501" x1="27.0891" y1="0.996818" x2="27.0891" y2="54.825"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#6CADF2"></stop>
+                        <stop offset="1" stop-color="#126099"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="_text_m2211_124">
+                    <p>-10%</p>
+                  </div>
+                </div>
+                <div class="_image_m2211_50"><img alt="" loading="lazy" class="_img_m2211_257 _visible_m2211_265"
+                    src="https://vpnul.codes/s3/subs/4.webp"></div>
+                <div class="_title_m2211_51">
+                  <h4>3 месяца</h4>
+                </div>
+                <div class="_button_m2211_52">
+                  <div class="skeleton-bg _skeletonBg_m2211_88"></div><button>
+                    <h4>591р</h4>
+                  </button>
+                </div>
+              </div>
+              <div class="_item_m2211_39 ">
+                <div class="skeleton-bg _skeletonBg_m2211_88"></div>
+                <div class="_sale_m2211_93">
+                  <div class="_bg_m2211_121"></div><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                    viewBox="0 0 55 55" fill="none">
+                    <path
+                      d="M51.4965 26.401L28.599 3.50354C26.3557 1.26026 23.3132 0 20.1408 0H1.99763C0.221489 0 -0.667999 2.14743 0.587919 3.40336L51.5967 54.4121C52.8526 55.668 55 54.7785 55 53.0024V34.8593C55 31.6868 53.7397 28.6443 51.4965 26.401Z"
+                      fill="url(#paint0_linear_1_501)"></path>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_501" x1="27.0891" y1="0.996818" x2="27.0891" y2="54.825"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#6CADF2"></stop>
+                        <stop offset="1" stop-color="#126099"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="_text_m2211_124">
+                    <p>-20%</p>
+                  </div>
+                </div>
+                <div class="_image_m2211_50"><img alt="" loading="lazy" class="_img_m2211_257 _visible_m2211_265"
+                    src="https://vpnul.codes/s3/subs/5.webp"></div>
+                <div class="_title_m2211_51">
+                  <h4>6 месяцев</h4>
+                </div>
+                <div class="_button_m2211_52">
+                  <div class="skeleton-bg _skeletonBg_m2211_88"></div><button>
+                    <h4>1051р</h4>
+                  </button>
+                </div>
+              </div>
+              <div class="_item_m2211_39 ">
+                <div class="skeleton-bg _skeletonBg_m2211_88"></div>
+                <div class="_sale_m2211_93">
+                  <div class="_bg_m2211_121"></div><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                    viewBox="0 0 55 55" fill="none">
+                    <path
+                      d="M51.4965 26.401L28.599 3.50354C26.3557 1.26026 23.3132 0 20.1408 0H1.99763C0.221489 0 -0.667999 2.14743 0.587919 3.40336L51.5967 54.4121C52.8526 55.668 55 54.7785 55 53.0024V34.8593C55 31.6868 53.7397 28.6443 51.4965 26.401Z"
+                      fill="url(#paint0_linear_1_501)"></path>
+                    <defs>
+                      <linearGradient id="paint0_linear_1_501" x1="27.0891" y1="0.996818" x2="27.0891" y2="54.825"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#6CADF2"></stop>
+                        <stop offset="1" stop-color="#126099"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="_text_m2211_124">
+                    <p>-30%</p>
+                  </div>
+                </div>
+                <div class="_image_m2211_50"><img alt="" loading="lazy" class="_img_m2211_257 _visible_m2211_265"
+                    src="https://vpnul.codes/s3/subs/6.webp"></div>
+                <div class="_title_m2211_51">
+                  <h4>1 год</h4>
+                </div>
+                <div class="_button_m2211_52">
+                  <div class="skeleton-bg _skeletonBg_m2211_88"></div><button>
+                    <h4>1840р</h4>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="footer " aria-label="Bottom navigation">
+          <div class="glass-pill"></div>
+          <div class="items" role="tablist" aria-orientation="horizontal"><button type="button" class="item active"
+              role="tab" aria-selected="true"><svg width="24px" height="24px" viewBox="0 0 20 20" class="" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.30012 0.0757278C7.59789 -0.149832 8.9828 0.123423 10.0548 0.965452C10.7499 1.4547 11.3817 2.15637 11.7398 3.00687C11.7481 3.0265 11.7573 3.04588 11.7677 3.06447C12.0261 3.52728 11.7337 4.17262 11.2616 4.35576C10.7911 4.53797 10.1592 4.35603 9.95604 3.89874C9.94625 3.87672 9.93565 3.85461 9.923 3.83411C9.64286 3.38005 9.35811 2.929 8.89981 2.60642C7.59339 1.5995 5.69656 1.92904 4.70681 3.33519C4.21195 4.03824 4.03382 4.78928 4.17255 5.58787L4.45199 7.19561C4.48929 7.41025 4.69379 7.55476 4.90842 7.51771L12.5064 6.19713C14.2036 5.90215 15.7271 6.97448 16.0221 8.6717L17.2367 15.6597C17.5317 17.3569 16.4593 18.8804 14.7621 19.1754L4.77898 20.9105C3.08176 21.2055 1.55826 20.1332 1.26327 18.436L0.0487152 11.448C-0.223307 9.88288 0.667372 8.46543 2.13859 8.02292C2.34737 7.96015 2.49288 7.7574 2.45555 7.5426L2.17612 5.93487C1.69042 3.13961 3.5049 0.561665 6.30012 0.0757278ZM8.20924 10.3528C8.03404 10.3135 7.85911 10.4237 7.81985 10.5989L7.4391 12.2975C7.41242 12.417 7.3206 12.5118 7.20205 12.5419L5.52407 12.9704C5.43946 12.9921 5.3673 13.0466 5.32347 13.1222C5.23335 13.2776 5.28612 13.4774 5.44152 13.5675L6.0797 13.9374C6.39888 14.1223 6.78373 14.1574 7.13116 14.0331L8.84079 13.4218C8.9043 13.399 8.9746 13.421 9.01376 13.476C9.06201 13.5436 9.04635 13.6369 8.97876 13.6852L7.52736 14.7216C7.25542 14.9158 7.08327 15.2205 7.05742 15.5536L6.98709 16.4777C6.98039 16.5651 7.00857 16.6517 7.06646 16.7177C7.18502 16.8525 7.39052 16.8652 7.52552 16.7469L8.8227 15.6046C8.91452 15.5238 9.04378 15.5014 9.15752 15.5464L10.7778 16.1886C10.858 16.2203 10.9476 16.219 11.0269 16.1849C11.1916 16.1135 11.2676 15.9218 11.1964 15.757L10.5046 14.1605C10.4562 14.0481 10.4752 13.918 10.5531 13.824L11.6645 12.485C11.7197 12.4184 11.7462 12.3323 11.7379 12.2462C11.7212 12.0674 11.5625 11.9362 11.3837 11.9529L9.64973 12.1165C9.52794 12.1281 9.40955 12.07 9.34413 11.9664L8.41253 10.4958C8.36649 10.4231 8.29327 10.3716 8.20924 10.3528Z"
+                  fill="#0091FF"></path>
+              </svg>
+              <h4>VPN</h4>
+            </button><button type="button" class="item" role="tab" aria-selected="false"><svg width="24px" height="24px"
+                viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+                <path
+                  d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.19C0 17.83 2.17 20 5.81 20H14.19C17.83 20 20 17.83 20 14.19V5.81C20 2.17 17.83 0 14.19 0ZM7.97 12.9L5.72 15.15C5.57 15.3 5.38 15.37 5.19 15.37C5 15.37 4.8 15.3 4.66 15.15L3.91 14.4C3.61 14.11 3.61 13.63 3.91 13.34C4.2 13.05 4.67 13.05 4.97 13.34L5.19 13.56L6.91 11.84C7.2 11.55 7.67 11.55 7.97 11.84C8.26 12.13 8.26 12.61 7.97 12.9ZM7.97 5.9L5.72 8.15C5.57 8.3 5.38 8.37 5.19 8.37C5 8.37 4.8 8.3 4.66 8.15L3.91 7.4C3.61 7.11 3.61 6.63 3.91 6.34C4.2 6.05 4.67 6.05 4.97 6.34L5.19 6.56L6.91 4.84C7.2 4.55 7.67 4.55 7.97 4.84C8.26 5.13 8.26 5.61 7.97 5.9ZM15.56 14.62H10.31C9.9 14.62 9.56 14.28 9.56 13.87C9.56 13.46 9.9 13.12 10.31 13.12H15.56C15.98 13.12 16.31 13.46 16.31 13.87C16.31 14.28 15.98 14.62 15.56 14.62ZM15.56 7.62H10.31C9.9 7.62 9.56 7.28 9.56 6.87C9.56 6.46 9.9 6.12 10.31 6.12H15.56C15.98 6.12 16.31 6.46 16.31 6.87C16.31 7.28 15.98 7.62 15.56 7.62Z"
+                  fill="white"></path>
+              </svg>
+              <h4>Задания</h4>
+            </button><button type="button" class="item" role="tab" aria-selected="false"><svg width="24px" height="24px"
+                class="" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.01516 21H17.8182C18.4468 21 18.9397 20.8618 19.2972 20.5854C19.6546 20.3089 19.8333 19.9293 19.8333 19.4465C19.8333 18.699 19.6036 17.9087 19.144 17.0756C18.6844 16.2425 18.0245 15.4619 17.1642 14.7338C16.3039 14.0058 15.2629 13.414 14.0412 12.9585C12.8196 12.503 11.4428 12.2752 9.9108 12.2752C8.38667 12.2752 7.01377 12.503 5.7921 12.9585C4.57044 13.414 3.52751 14.0058 2.66331 14.7338C1.7991 15.4619 1.13917 16.2425 0.683503 17.0756C0.227834 17.9087 0 18.699 0 19.4465C0 19.9293 0.178732 20.3089 0.536197 20.5854C0.893662 20.8618 1.38665 21 2.01516 21ZM9.92259 10.1846C10.7632 10.1846 11.541 9.95687 12.2559 9.50137C12.9708 9.04586 13.5463 8.42879 13.9823 7.65015C14.4184 6.87151 14.6364 5.99554 14.6364 5.02223C14.6364 4.0645 14.4184 3.20605 13.9823 2.44687C13.5463 1.68771 12.9708 1.0901 12.2559 0.654059C11.541 0.21802 10.7632 0 9.92259 0C9.08195 0 8.30417 0.221913 7.58924 0.665737C6.87432 1.10957 6.29884 1.71301 5.86281 2.47608C5.42679 3.23915 5.20877 4.09565 5.20877 5.0456C5.20877 6.01111 5.42679 6.88124 5.86281 7.65599C6.29884 8.43073 6.87432 9.04586 7.58924 9.50137C8.30417 9.95687 9.08195 10.1846 9.92259 10.1846Z"
+                  fill="white"></path>
+              </svg>
+              <h4>Профиль</h4>
+            </button></div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    body {
+      background-color: #000;
+    }
+  </style>
+  <div id="tc-widget-root"><tc-root></tc-root></div>
+</body>
+
+</html>
